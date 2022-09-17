@@ -1,4 +1,5 @@
 export function reverseText(text: string): string {
-	// Escribe tu código aquí
-	return '';
+	const arrayText: string[] = text.split(' ');
+	arrayText.reverse();
+	return arrayText.join(' ');
 }
